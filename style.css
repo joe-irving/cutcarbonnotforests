@@ -29,6 +29,10 @@ a {
 	outline-style: solid;
 }
 
+:where(.wp-site-blocks) > *.wp-block-group {
+	margin-block-start: 0;
+}
+
 /* Increase the bottom margin on submenus, so that the outline is visible. */
 .wp-block-navigation .wp-block-navigation-submenu .wp-block-navigation-item:not(:last-child) {
 	margin-bottom: 3px;

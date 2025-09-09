@@ -193,7 +193,7 @@
 			"text": "var:preset|color|contrast"
 		},
 		"spacing": {
-			"blockGap": "1.2rem",
+			"blockGap": "1.3rem",
 			"padding": {
 				"left": "var:preset|spacing|50",
 				"right": "var:preset|spacing|50"
