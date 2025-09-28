@@ -26,11 +26,23 @@ a {
 /* Focus styles */
 :where(.wp-site-blocks *:focus) {
 	outline-width: 2px;
-	outline-style: solid;
+	outline-style: solid;	
 }
 
-:where(.wp-site-blocks) > *.wp-block-group {
+main, .no-margin-top {
 	margin-block-start: 0;
+}
+
+:where(.wp-site-blocks) .wp-block-post-content > *.wp-block-group {
+	margin-block-start: 0;
+}
+
+:where(.wp-site-blocks) .wp-block-post-content > *.wp-block-group:not(:first-child) > :first-child {
+	margin-top: 4rem;
+}
+
+:where(.wp-site-blocks) .wp-block-post-content > *.wp-block-group > :last-child {
+	margin-bottom: 4rem;
 }
 
 /* Increase the bottom margin on submenus, so that the outline is visible. */
