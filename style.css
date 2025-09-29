@@ -29,7 +29,7 @@ a {
 	outline-style: solid;	
 }
 
-main, .no-margin-top {
+main, .no-margin-top, :root :where(.is-layout-flow) > footer {
 	margin-block-start: 0;
 }
 
@@ -42,7 +42,11 @@ main, .no-margin-top {
 }
 
 :where(.wp-site-blocks) .wp-block-post-content > *.wp-block-group > :last-child {
-	margin-bottom: 4rem;
+	padding-bottom: 4rem;
+}
+
+.threat-featured-image {
+	min-width: 100px;
 }
 
 /* Increase the bottom margin on submenus, so that the outline is visible. */
