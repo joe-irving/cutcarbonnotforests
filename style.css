@@ -97,6 +97,10 @@ h1, h2, h3, h4, h5, h6, blockquote, caption, figcaption, p {
 	/* padding: 0.3em; */
 }
 
+.mc_form_inside .mc_var_label {
+	font-weight: bold;
+}
+
 .mc_form_inside .mc_merge_var {
 	flex-grow: 1;
 	min-width: min(250px, 90vw);
@@ -130,4 +134,198 @@ h1, h2, h3, h4, h5, h6, blockquote, caption, figcaption, p {
 #mc_message > strong {
 	padding: 10px;
 	background-color: white;
+}
+
+/* Home Page Slider */
+
+@keyframes cycleBackgroundImage {
+	0% {
+		background-image: url(/wp-content/uploads/2021/12/estonia-clear-cut-1600x700-1.jpg);
+		opacity: 1;
+	}
+	8% {
+		background-image: url(/wp-content/uploads/2021/12/estonia-clear-cut-1600x700-1.jpg);
+		opacity: 1;
+	}
+	10% {
+		background-image: url(/wp-content/uploads/2021/12/estonia-clear-cut-1600x700-1.jpg);
+		opacity: 0;
+	}
+	18% {
+		background-image: url(/wp-content/uploads/2020/01/wildlife-slider-9-v1-e1757348174851.jpg);
+		opacity: 0;
+	}
+	20% {
+		background-image: url(/wp-content/uploads/2020/01/wildlife-slider-9-v1-e1757348174851.jpg);
+		opacity: 1;
+	}
+	30% {
+		background-image: url(/wp-content/uploads/2020/01/wildlife-slider-9-v1-e1757348174851.jpg);
+		opacity: 1;
+	}
+	32% {
+		background-image: url(/wp-content/uploads/2020/01/wildlife-slider-9-v1-e1757348174851.jpg);
+		opacity: 0;
+	}
+	38% {
+		background-image: url(/wp-content/uploads/2021/11/communities-slider-Dogwood-Alliance-1600x700-1.jpg);
+		opacity: 0;
+	}
+	40% {
+		background-image: url(/wp-content/uploads/2021/11/communities-slider-Dogwood-Alliance-1600x700-1.jpg);
+		opacity: 1;
+	}
+	50% {
+		background-image: url(/wp-content/uploads/2021/11/communities-slider-Dogwood-Alliance-1600x700-1.jpg);
+		opacity: 1;
+	}
+	52% {
+		background-image: url(/wp-content/uploads/2021/11/communities-slider-Dogwood-Alliance-1600x700-1.jpg);
+		opacity: 0;
+	}
+	58% {
+		background-image: url(/wp-content/uploads/2021/03/bigstock-219036424-drax-1200.jpg);
+		opacity: 0;
+	}
+	60% {
+		background-image: url(/wp-content/uploads/2021/03/bigstock-219036424-drax-1200.jpg);
+		opacity: 1;
+	}
+	70% {
+		background-image: url(/wp-content/uploads/2021/03/bigstock-219036424-drax-1200.jpg);
+		opacity: 1;
+	}
+	72% {
+		background-image: url(/wp-content/uploads/2021/03/bigstock-219036424-drax-1200.jpg);
+		opacity: 0;
+	}
+	78% {
+		background-image: url(/wp-content/uploads/2020/02/wildlife-slider-16-v1.jpg );
+		opacity: 0;
+	}
+	80% {
+		background-image: url(/wp-content/uploads/2020/02/wildlife-slider-16-v1.jpg );
+		opacity: 1;
+	}
+	90% {
+		background-image: url(/wp-content/uploads/2020/02/wildlife-slider-16-v1.jpg );
+		opacity: 1;
+	}
+	92% {
+		background-image: url(/wp-content/uploads/2020/02/wildlife-slider-16-v1.jpg );
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes cycleBackgroundImage2 {
+	0% {
+		background-image: url(/wp-content/uploads/2021/11/drax-gloucester-aerial-banner-1600x700-1.jpg);
+		opacity: 0;
+	}
+	8% {
+		background-image: url(/wp-content/uploads/2021/11/drax-gloucester-aerial-banner-1600x700-1.jpg);
+		opacity: 0;
+	}
+	10% {
+		background-image: url(/wp-content/uploads/2021/11/drax-gloucester-aerial-banner-1600x700-1.jpg);
+		opacity: 1;
+	}
+	20% {
+		background-image: url(/wp-content/uploads/2021/11/drax-gloucester-aerial-banner-1600x700-1.jpg);
+		opacity: 1;
+	}
+	22% {
+		background-image: url(/wp-content/uploads/2021/11/drax-gloucester-aerial-banner-1600x700-1.jpg);
+		opacity: 0;
+	}
+	28% {
+		background-image: url(/wp-content/uploads/2020/01/wildlife-slider-14-v1.jpg);
+		opacity: 0;
+	}
+	30% {
+		background-image: url(/wp-content/uploads/2020/01/wildlife-slider-14-v1.jpg);
+		opacity: 1;
+	}
+	40% {
+		background-image: url(/wp-content/uploads/2020/01/wildlife-slider-14-v1.jpg);
+		opacity: 1;
+	}
+	42% {
+		background-image: url(/wp-content/uploads/2020/01/wildlife-slider-14-v1.jpg);
+		opacity: 0;
+	}
+	48% {
+		background-image: url(/wp-content/uploads/2020/01/wildlife-slider-5-v1.jpg);
+		opacity: 0;
+	}
+	50% {
+		background-image: url(/wp-content/uploads/2020/01/wildlife-slider-5-v1.jpg);
+		opacity: 1;
+	}
+	60% {
+		background-image: url(/wp-content/uploads/2020/01/wildlife-slider-5-v1.jpg);
+		opacity: 1;
+	}
+	62% {
+		background-image: url(/wp-content/uploads/2020/01/wildlife-slider-5-v1.jpg);
+		opacity: 0;
+	}
+	68% {
+		background-image: url(/wp-content/uploads/2021/12/estonia-demonstration-banner-1600x700-1.jpg);
+		opacity: 0;
+	}
+	70% {
+		background-image: url(/wp-content/uploads/2021/12/estonia-demonstration-banner-1600x700-1.jpg);
+		opacity: 1;
+	}
+	80% {
+		background-image: url(/wp-content/uploads/2021/12/estonia-demonstration-banner-1600x700-1.jpg);
+		opacity: 1;
+	}
+	82% {
+		backgrond-image: url(/wp-content/uploads/2021/12/estonia-demonstration-banner-1600x700-1.jpg);
+		opacity: 0;
+	}
+	88% {
+		background-image: url(/wp-content/uploads/2021/12/estonia-clear-cut-1600x700-1.jpg);
+		opacity: 0;
+	}
+	90% {
+		background-image: url(/wp-content/uploads/2021/12/estonia-clear-cut-1600x700-1.jpg);
+		opacity: 1;
+	}
+	100% {
+		background-image: url(/wp-content/uploads/2021/12/estonia-clear-cut-1600x700-1.jpg);
+		opacity: 1;
+	}
+}
+
+
+
+.slider-background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.slider-background-1 {
+	animation-name: cycleBackgroundImage;
+  	animation-duration: 60s;
+	animation-iteration-count: infinite;
+}
+
+.slider-background-2 {
+	animation-name: cycleBackgroundImage2;
+  	animation-duration: 60s;
+	animation-iteration-count: infinite;
+
 }
