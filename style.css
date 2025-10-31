@@ -7,7 +7,7 @@ Description: Twenty Twenty-Five emphasizes simplicity and adaptability. It offer
 Requires at least: 6.7
 Tested up to: 6.8
 Requires PHP: 7.2
-Version: 1.4
+Version: 1.4.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: cutcarbonnotforests
@@ -286,7 +286,7 @@ h1, h2, h3, h4, h5, h6, blockquote, caption, figcaption, p {
 		opacity: 1;
 	}
 	82% {
-		backgrond-image: url(/wp-content/uploads/2021/12/estonia-demonstration-banner-1600x700-1.jpg);
+		background-image: url(/wp-content/uploads/2021/12/estonia-demonstration-banner-1600x700-1.jpg);
 		opacity: 0;
 	}
 	88% {
@@ -312,7 +312,7 @@ h1, h2, h3, h4, h5, h6, blockquote, caption, figcaption, p {
 	width: 100%;
 	height: 100%;
 	z-index: -1;
-	background: url(/wp-content/uploads/2021/12/estonia-clear-cut-1600x700-1.jpg) no-repeat center center fixed;
+	background: url(/wp-content/uploads/2021/12/estonia-clear-cut-1600x700-1.jpg) no-repeat center center scroll;
 	background-size: cover;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
